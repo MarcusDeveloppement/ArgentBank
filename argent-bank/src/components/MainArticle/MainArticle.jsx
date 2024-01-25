@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./MainArticle.module.scss";
+import iconChat from "../../assets/img/icon-chat.png";
+import iconMoney from "../../assets/img/icon-money.png";
+import iconSecurity from "../../assets/img/icon-security.png";
 
 export default function MainArticle() {
   return (
@@ -20,7 +23,7 @@ export default function MainArticle() {
           <h2 className={styles.srOnly}>Features</h2>
           <div className={styles.featureItem}>
             <img
-              src="../src\assets\img\icon-chat.png"
+              src={iconChat}
               alt="Chat Icon"
               className={styles.featureIcon}
             />
@@ -32,8 +35,8 @@ export default function MainArticle() {
           </div>
           <div className={styles.featureItem}>
             <img
-              src="../src\assets\img\icon-money.png"
-              alt="Chat Icon"
+              src={iconMoney}
+              alt="icon money"
               className={styles.featureIcon}
             />
             <h3 className={styles.featureItemTitle}>
@@ -45,8 +48,8 @@ export default function MainArticle() {
           </div>
           <div className={styles.featureItem}>
             <img
-              src="../src\assets\img\icon-security.png"
-              alt="Chat Icon"
+              src={iconSecurity}
+              alt="Security icon"
               className={styles.featureIcon}
             />
             <h3 className={styles.featureItemTitle}>Security you can trust</h3>

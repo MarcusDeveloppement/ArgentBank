@@ -33,9 +33,16 @@
 }
 .mainNavItem {
   text-decoration: none;
-  margin-right: 0.5rem;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  padding: 0.2rem 0;
 }
 
 .main-nav-item:hover {
   text-decoration: underline;
+}
+.contentSign {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
